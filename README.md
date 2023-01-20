@@ -1,0 +1,10 @@
+# PRIVIC
+Code for experiments performed in the paper "PRIVIC: A privacy-preserving method for incremental collection of location data"
+1. privic.py --> Codes for Blahut-Arimoto algorithm (BA), iterative Bayesian update (IBU), and PRIVIC.
+2. FIlteringLocations.py --> Filtering out locations in Paris and San Francisco from the Gowalla dataset (File name: "gowalla_checkin.txt"
+downloaded from https://snap.stanford.edu/data/loc-gowalla.html).
+3. Gowalla_Paris_grid.csv --> 10,260 Gowalla check-ins from a central part of Paris bounded by latitudes (48.8286, 48.8798) and longitudes (2.2855, 2.3909) 
+covering an area of 8Km×6Km discretized with a 16 × 12 grid.
+4. Gowalla_Paris_grid.csv --> 123,025 Gowalla check-ins from a northern part of San Francisco bounded by latitudes (37.7228, 37.7946) 
+and longitudes (-122.5153, -122.3789) covering an area of 12Kmx8Km discretized with a 24$x17 grid.
+5. Paris_Grid.py and SF_Grid.py --> Discretizing the locations in Paris and San Francisco (obtained from the Gowalla dataset).
