@@ -13,7 +13,7 @@ import time
 import pandas as pd 
 
 #Paris dataset
-gowalla_paris_all = pd.read_csv (r'/Users/sayanbiswas/Desktop/Work/Projects/BAandIBU/Latest/Gowalla_Paris_grid.csv') #Importing Gowalla Paris (grid aggregated) dataset
+gowalla_paris_all = pd.read_csv (r'Gowalla_Paris_grid.csv') #Importing Gowalla Paris (grid aggregated) dataset
 gowalla_paris_values=gowalla_paris_all.values #Converting gowalla dataset to an array
 N_paris=len(gowalla_paris_values) #Number of data points in Paris dataset
 
@@ -30,7 +30,7 @@ paris_lat_range=np.array([paris_lat_min,paris_lat_max+1]) #Range of latitude
 paris_long_range=np.array([paris_long_min,paris_long_max+1]) #Range of longitude
 
 #San Francisco dataset
-gowalla_sf_all = pd.read_csv (r'/Users/sayanbiswas/Desktop/Work/Projects/BAandIBU/Latest/Gowalla_SF_grid.csv') #Importing Gowalla SF (grid aggregated) dataset
+gowalla_sf_all = pd.read_csv (r'Gowalla_SF_grid.csv') #Importing Gowalla SF (grid aggregated) dataset
 gowalla_sf_values=gowalla_sf_all.values #Converting gowalla dataset to an array
 N_sf=len(gowalla_sf_values) #Number of data points in SF dataset
 
