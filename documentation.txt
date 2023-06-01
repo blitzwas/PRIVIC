@@ -5,3 +5,4 @@
 3. Gowalla_Paris_grid.csv --> 10,260 Gowalla check-ins from a central part of Paris bounded by latitudes (48.8286, 48.8798) and longitudes (2.2855, 2.3909) covering an area of 8Km×6Km discretized with a 16 × 12 grid.
 4. Gowalla_Paris_grid.csv --> 123,025 Gowalla check-ins from a northern part of San Francisco bounded by latitudes (37.7228, 37.7946) and longitudes (-122.5153, -122.3789) covering an area of 12Kmx8Km discretized with a 24$x17 grid.
 5. Paris_Grid.py and SF_Grid.py --> Discretizing the locations in Paris and San Francisco (obtained from the Gowalla dataset).
+6. Privic_BA_with_Adversarial_Input.ipynb --> Experiments considering different levels of adversarial users reporting their locations falsely to compromise the privacy of (non-adversarial) users located in geo-spatially isolated points on the map.
