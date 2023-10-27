@@ -8,7 +8,7 @@
 5. privic.py --> Blahut-Arimoto algorithm (BA), iterative Bayesian update (IBU), and PRIVIC.
 6. Elastic.py --> Visualizing the elastic distinguishability property of BA and its ability to protect the isolated locations vs LAP
 7. BA_vs_LAP_stat_utility.py --> Comparing the statistical utility of the noisy locations privatized with BA and LAP
-8. Privic_BA_with_Adversarial_Input.ipynb --> Experiments considering different levels of adversarial users reporting their locations falsely to compromise the privacy of (non-adversarial) users located in geo-spatially isolated points on the map.
+8. Privic_BA_with_Adversarial_Input.py --> Experiments considering different levels of adversarial users reporting their locations falsely to compromise the privacy of (non-adversarial) users located in geo-spatially isolated points on the map.
 
 
 # Instructions to run the codes
