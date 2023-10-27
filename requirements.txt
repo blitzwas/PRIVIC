@@ -24,3 +24,6 @@ The Gowalla check-ins dataset should be downloaded from https://snap.stanford.ed
 ##Refer to the README.md file for detailed and step-by-step instructions aiding the implementation process.  
 
 ##The codes provided mostly generate the .csv files for the output data of the different experiments. All the visualisations provided in the paper were done using an external (paid) software called GraphPad PRISM using those output datasets. If one wishes to reproduce the plots, they may use any visualisation software or packages from Python that help to plot the output data from the .csv files produced by the codes. 
+
+##Functions and variables:
+"privic_functions.py" defines several functions and introduces many variables that are used by most of the other .py files. It is, therefore, recommended to import those or copy-paste the code from "privic_functions.py" at the beginning of the files "BA_vs_LAP_stat_utility.py", "Elastic.py", "privic_main.py", and "Privic_BA_with_Adversarial_Input.py". We highly recommend following the instructions in the README.md in order to run the codes following the desired sequence to avoid errors related to "function/variable not defined".
