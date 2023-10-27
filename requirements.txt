@@ -13,3 +13,10 @@ from scipy.stats import poisson
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
 import time
+
+##Downloading the dataset
+The Gowalla check-ins dataset should be downloaded from https://snap.stanford.edu/data/loc-gowalla.html and prepared as follows:
+1. Download the .gz file named "loc-gowalla_totalCheckins.txt.gz" from https://snap.stanford.edu/data/loc-gowalla.html. 
+2. Gunzip the file and rename the gunzipped .txt file as "gowalla_checkin.txt".
+
+##Refer to the README.md file for a detailed and step-by-step overview of the implementation process.  
