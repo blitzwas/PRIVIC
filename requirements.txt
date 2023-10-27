@@ -13,6 +13,8 @@ from scipy.stats import poisson
 from scipy.stats import wasserstein_distance
 from tqdm import tqdm
 import time
+import pandas as pd 
+
 
 ##Downloading the dataset
 The Gowalla check-ins dataset should be downloaded from https://snap.stanford.edu/data/loc-gowalla.html and prepared as follows:
