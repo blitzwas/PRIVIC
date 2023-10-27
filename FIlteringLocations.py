@@ -8,7 +8,7 @@ from scipy.stats import wasserstein_distance
 
 #Importing and setting up
 import pandas as pd 
-gowalla_all = pd.read_csv (r'gowalla_checkin.txt') #Importing Gowalla dataset
+gowalla_all = pd.read_csv (r'/Users/sayanbiswas/Desktop/Work/Projects/BAandIBU/Latest/gowalla_checkin.txt') #Importing Gowalla dataset
 gowalla_values=gowalla_all.values #Converting gowalla dataset to an array
 
 #Filtering Gowalla data for Paris
@@ -23,7 +23,7 @@ for loc in gowalla_values:
     if(float(split_line[2])>=48.8286 and float(split_line[2])<=48.8798): #latitude
         if(float(split_line[3])<=2.3909 and float(split_line[3])>=2.2855): #longitude     
             latitudes_Paris.append(split_line[2])
-            longitudes_Paris.append(split_line[3])
+            longitudes_Paris.append(split_line[3]) 
             n_paris+=1
 
 w_P = open('Gowalla_Paris.csv', 'w', encoding='utf-8') #Creating file for Paris locations
