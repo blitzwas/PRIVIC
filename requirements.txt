@@ -1,0 +1,15 @@
+# Basic requirements to implement our codes:
+
+##Language and recommended version: Python 3 or higher
+
+##Packages:
+from pyemd import emd
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+import random
+from scipy.stats import binom
+from scipy.stats import poisson
+from scipy.stats import wasserstein_distance
+from tqdm import tqdm
+import time
