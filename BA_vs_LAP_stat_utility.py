@@ -1,3 +1,19 @@
+#Packages
+from pyemd import emd
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+import random
+from scipy.stats import binom
+from scipy.stats import poisson
+from scipy.stats import wasserstein_distance
+from tqdm import tqdm
+import time
+import pandas as pd 
+
+
+
+
 #####################!!!!!!!#Comparing statistical utility
 
 RDSlope=np.array([0.2,0.4,0.6,0.8,1,1.2,1.4,1.6,1.8,2,2.2,2.4,2.6,2.8,3,
