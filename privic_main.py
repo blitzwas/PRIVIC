@@ -1,3 +1,19 @@
+#Packages
+from pyemd import emd
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+import random
+from scipy.stats import binom
+from scipy.stats import poisson
+from scipy.stats import wasserstein_distance
+from tqdm import tqdm
+import time
+import pandas as pd 
+import csv
+
+
+
 ################# START PARIS
 
 #Data is sampled following a certain fraction every round
