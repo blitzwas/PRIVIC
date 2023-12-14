@@ -1,3 +1,5 @@
+#Packages
+from pyemd import emd
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,6 +10,7 @@ from scipy.stats import wasserstein_distance
 from tqdm import tqdm
 import time
 import pandas as pd 
+import csv
 
 #Paris dataset
 gowalla_paris_all = pd.read_csv (r'/Users/sayanbiswas/Desktop/Work/Projects/BAandIBU/Latest/Gowalla_Paris_grid.csv') #Importing Gowalla Paris (grid aggregated) dataset
