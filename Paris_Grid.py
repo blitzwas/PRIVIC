@@ -1,6 +1,17 @@
+#Packages
+from pyemd import emd
 import math
 import numpy as np
+import matplotlib.pyplot as plt
+import random
+from scipy.stats import binom
+from scipy.stats import poisson
+from scipy.stats import wasserstein_distance
+from tqdm import tqdm
+import time
+import pandas as pd 
 import csv
+
 
 f = open('Gowalla_Paris_(No head).csv', 'r', encoding='utf-8')
 w_freq = open('Gowalla_Paris_grid_freq.csv', 'w', encoding='utf-8')
