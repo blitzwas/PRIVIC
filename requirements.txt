@@ -1,7 +1,3 @@
-#Overview and basic requirements to implement our codes:
-
-##Language and recommended version: Python 3 or higher
-
 ##Packages:
 
 
