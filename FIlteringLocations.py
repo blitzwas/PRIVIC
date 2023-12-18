@@ -15,7 +15,7 @@ import csv
 
 #Importing and setting up
 import pandas as pd 
-gowalla_all = pd.read_csv (r'/Users/sayanbiswas/Desktop/Work/Projects/BAandIBU/Latest/gowalla_checkin.txt') #Importing Gowalla dataset
+gowalla_all = pd.read_csv (r'gowalla_checkin.txt') #Importing Gowalla dataset
 gowalla_values=gowalla_all.values #Converting gowalla dataset to an array
 
 #Filtering Gowalla data for Paris
