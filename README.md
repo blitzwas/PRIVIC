@@ -11,6 +11,20 @@
 8. Privic_BA_with_Adversarial_Input.py --> Experiments considering different levels of adversarial users reporting their locations falsely to compromise the privacy of (non-adversarial) users located in geo-spatially isolated points on the map.
 
 
+# Required packages
+## to be imported:
+#from pyemd import emd
+#import math
+#import numpy as np
+#import matplotlib.pyplot as plt
+#import random
+#from scipy.stats import binom
+#from scipy.stats import poisson
+#from scipy.stats import wasserstein_distance
+#from tqdm import tqdm
+#import time
+#import pandas as pd 
+
 # Instructions to run the codes
 1. Run FilteringLocations.py to filter out the Gowalla check-in locations in Paris and San Francisco from the entire Gowalla dataset. This code creates the csv files "Gowalla_Paris.csv" and "Gowalla_SF.csv".
 2. "Gowalla_Paris_(No Head).csv" and "Gowalla_SF_(No Head).csv", respectively are created by essentially deleting the first row (column titles) from  "Gowalla_Paris.csv" and "Gowalla_SF.csv", respectively.
