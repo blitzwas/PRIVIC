@@ -1,7 +1,7 @@
 # PRIVIC
 #Code for experiments performed in the paper "PRIVIC: A privacy-preserving method for incremental collection of location data"
 
-1. FIlteringLocations.py --> Filtering out locations in Paris and San Francisco from the Gowalla dataset (File name: "gowalla_checkin.txt" downloaded from https://snap.stanford.edu/data/loc-gowalla.html). Dataset is very large (376.4 MB)
+1. FIlteringLocations.py --> Filtering out locations in Paris and San Francisco from the Gowalla dataset (File name: "gowalla_checkin.txt" downloaded from https://snap.stanford.edu/data/loc-gowalla.html). The dataset is very large (376.4 MB).
 2. Gowalla_Paris_grid.csv --> 10,260 Gowalla check-ins from a central part of Paris bounded by latitudes (48.8286, 48.8798) and longitudes (2.2855, 2.3909) covering an area of 8Km×6Km discretized with a 16 × 12 grid.
 3. Gowalla_SF_grid.csv --> 123,025 Gowalla check-ins from a northern part of San Francisco bounded by latitudes (37.7228, 37.7946) and longitudes (-122.5153, -122.3789) covering an area of 12Kmx8Km discretized with a 24$x17 grid.
 4. Paris_Grid.py and SF_Grid.py --> Discretizing the locations in Paris and San Francisco (obtained from the Gowalla dataset).
@@ -12,7 +12,7 @@
 
 
 # Required packages
-## to be imported:
+## To be imported:
 1. from pyemd import emd
 2. import math
 3. import numpy as np
@@ -32,7 +32,7 @@ The Gowalla check-ins dataset should be downloaded from https://snap.stanford.ed
 
 The codes provided mostly generate the .csv files for the output data of the different experiments. All the visualisations provided in the paper were done using an external (paid) software called GraphPad PRISM using those output datasets. If one wishes to reproduce the plots, one may use any visualisation software or Python packages that help plot the output data from the .csv files produced by the codes. 
 
-## Functions and variables:
+# Functions and variables:
 "privic_functions.py" defines several functions and introduces many variables that are used by most of the other .py files. It is, therefore, recommended to import those or copy-paste the code from "privic_functions.py" at the beginning of the files "BA_vs_LAP_stat_utility.py", "Elastic.py", "privic_main.py", and "Privic_BA_with_Adversarial_Input.py". We highly recommend following the instructions in the README.md to run the codes following the desired sequence to avoid errors related to "function/variable not defined".
 
 
