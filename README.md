@@ -1,5 +1,6 @@
 # PRIVIC
-## Language and recommended version: Python 3 or higher
+## Language and recommended version: 
+Python 3 or higher
 ## Code for experiments performed in the paper "PRIVIC: A privacy-preserving method for incremental collection of location data":
 1. FIlteringLocations.py --> Filtering out locations in Paris and San Francisco from the Gowalla dataset (File name: "gowalla_checkin.txt" downloaded from https://snap.stanford.edu/data/loc-gowalla.html). The dataset is very large (376.4 MB).
 2. Gowalla_Paris_grid.csv --> 10,260 Gowalla check-ins from a central part of Paris bounded by latitudes (48.8286, 48.8798) and longitudes (2.2855, 2.3909) covering an area of 8Km×6Km discretized with a 16 × 12 grid.
