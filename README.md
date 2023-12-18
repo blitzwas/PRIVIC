@@ -13,17 +13,28 @@
 
 # Required packages
 ## to be imported:
-#from pyemd import emd
-#import math
-#import numpy as np
-#import matplotlib.pyplot as plt
-#import random
-#from scipy.stats import binom
-#from scipy.stats import poisson
-#from scipy.stats import wasserstein_distance
-#from tqdm import tqdm
-#import time
-#import pandas as pd 
+1. from pyemd import emd
+2. import math
+3. import numpy as np
+4. import matplotlib.pyplot as plt
+5. import random
+6. from scipy.stats import binom
+7. from scipy.stats import poisson
+8. from scipy.stats import wasserstein_distance
+9. from tqdm import tqdm
+10. import time
+11. import pandas as pd
+
+# Downloading the dataset
+The Gowalla check-ins dataset should be downloaded from https://snap.stanford.edu/data/loc-gowalla.html and prepared as follows:
+1. Download the .gz file named "loc-gowalla_totalCheckins.txt.gz" from https://snap.stanford.edu/data/loc-gowalla.html. 
+2. Gunzip the file and rename the gunzipped .txt file as "gowalla_checkin.txt".
+
+The codes provided mostly generate the .csv files for the output data of the different experiments. All the visualisations provided in the paper were done using an external (paid) software called GraphPad PRISM using those output datasets. If one wishes to reproduce the plots, one may use any visualisation software or Python packages that help plot the output data from the .csv files produced by the codes. 
+
+## Functions and variables:
+"privic_functions.py" defines several functions and introduces many variables that are used by most of the other .py files. It is, therefore, recommended to import those or copy-paste the code from "privic_functions.py" at the beginning of the files "BA_vs_LAP_stat_utility.py", "Elastic.py", "privic_main.py", and "Privic_BA_with_Adversarial_Input.py". We highly recommend following the instructions in the README.md to run the codes following the desired sequence to avoid errors related to "function/variable not defined".
+
 
 # Instructions to run the codes
 1. Run FilteringLocations.py to filter out the Gowalla check-in locations in Paris and San Francisco from the entire Gowalla dataset. This code creates the csv files "Gowalla_Paris.csv" and "Gowalla_SF.csv".
